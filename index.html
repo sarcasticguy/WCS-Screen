@@ -1,85 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- SEO -->
-    <title>WCS Screen</title>
-    <meta name="description" content="Split is a centrally-divided layout for a professional online presense with a big image image or video left with alongside content." />
-    <meta name="robots" content="index, follow" />
-    <meta name="referrer" content="always" />
+  <!-- SEO -->
+  <title>WCS Screen</title>
+  <meta name="description" content="Split is a centrally-divided layout for a professional online presense with a big image image or video left with alongside content." />
+  <meta name="robots" content="index, follow" />
+  <meta name="referrer" content="always" />
 
-    <!-- Styles -->
-    <link rel='stylesheet' href='assets/css/split.css' type='text/css' media='screen' />
-    <meta name="viewm,.';port" content="width=device-width,initial-scale=1" />
 
-  </head>
+  <!-- Styles -->
+  <link rel='stylesheet' href='assets/css/split.css' type='text/css' media='screen' />
+  <meta name="viewm,.';port" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
-  <body id="fullsingle" class="page-template-page-fullsingle-split">
+</head>
 
-    <div class="fs-split">
+<body>
+  <div id="lobbyTVscreen" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
 
-      <!-- Self-Hosted Image Side -->
-          <div class="images-container">
-              <!-- <div class="filter"></div>
-              <image autoplay loop muted>
-                  <source src="images/GetLandingPageImage.jpg"/>
-              </image> -->
-              <img src="images/GetLandingPageImage.jpg" width="900" height="700"/> 
-          </div>
-
-      <!-- Content Side -->
-      <div class="split-content">
-        <div class="split-content-vertically-center">
-
-          <!-- START BLOG TITLE -->
-          <div class="split-intro">
-            <h1></h1>
-          </div>
-          <!-- END BLOG TITLE -->
-
-          <!-- START BLOG POST -->
-          <div class="split-intro tagline">
-            Welcome to Woodstock High School and Middle School.
-          </div>
-          <div class="split-bio">
-            <p>We are a diverse community committed to the discovery of promise in each of us, and dedicated to the full development of intellect, curiosity, energy, and conscience.</p>
-          </div>
-          <br />
-          <hr />
-          <!-- END BLOG POST -->
-          
-          <!-- START BLOG POST -->
-         <!--<div class="split-intro tagline">
-           Weather in Woodstock, VT
-         </div>
-         <div class="split-bio">
-           <p></p>
-         </div>
-         <br />
-         <hr /> -->
-         <!-- END BLOG POST -->
-         
-  <!-- START BLOG POST -->
-         <!--div class="split-intro tagline">
-           WUHSMS Sports Updates
-         </div>
-         <div class="split-bio">
-           <p></p>
-         </div>
-         <br />
-         <hr />
-         <!-- END BLOG POST -->
-
+      <div class="carousel-item active">
+        <img class="d-block w-100 img-fluid" src="images/GetLandingPageImage.jpg">
+        <h1 align="center">
+          Welcome to Woodstock High School and Middle School.
+        </h1>
+        <div>
+          <p>We are a diverse community committed to the discovery of promise in each of us, and dedicated to the full development of intellect, curiosity, energy, and conscience.</p>
         </div>
-
       </div>
 
-    </div>
 
-  </body>
+      <div class="carousel-item">
+        <div class="split-intro tagline">
+          Time and Date
+        </div>
+        <div><iframe src="http://free.timeanddate.com/clock/i62krkci/n5237/fs48/tt0/tm3/th2/tb4" frameborder="0" width="518" height="112"></iframe></div>
+        <br />
+        <hr />
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="split-intro tagline">
+          Weather in Woodstock
+        </div>
+        <div> <!-- weather widget start --><a target="_blank" href="http://www.booked.net/weather/killington-1099"><img src="https://w.bookcdn.com/weather/picture/3_1099_0_1_1551e8_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=65918"  alt="booked.net"/></a><!-- weather widget end -->
+      </div>
+        <br />
+        <hr />
+      </div>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#lobbyTVscreen" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="sr-only">Previous</span>
+ </a>
+    <a class="carousel-control-next" href="#lobbyTVscreen" role="button" data-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="sr-only">Next</span>
+ </a>
+  </div>
+
+
+</body>
 
 </html>
