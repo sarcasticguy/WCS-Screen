@@ -86,7 +86,6 @@ a:hover {
   border-style: none;
   box-shadow: none; }
 
-/* -- Content -- */
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
@@ -272,3 +271,14 @@ video.video {
      object-position: 50% 50%;
   width: 100%;
   height: 100%; }
+
+html,body{height: 100%;}
+  .carousel{
+    height: 100%;
+    text-align: center;
+  }
+  .carousel-inner > .carousel-item > img {
+    /*height: 100%;*/
+    width: 100%;
+    margin: 0 auto;
+  }
